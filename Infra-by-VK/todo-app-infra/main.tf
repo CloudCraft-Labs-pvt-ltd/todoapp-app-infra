@@ -24,7 +24,7 @@ module "stg-container-module" {
 }
 
 module "nic" {
-  source             = "../Modules/azurerm_network_interface"
+  source             = "../Modules/azurerm_network_interface" 
   network_interfaces = var.network_interfaces
   subnet_map         = module.vnet.vnet_subnets["vnet1"]
   depends_on         = [module.vnet]
@@ -41,3 +41,5 @@ module "vm" {
   disable_password_authentication = var.disable_password_authentication
   depends_on          = [module.nic]
 } 
+
+#checking git add commit and push in main branch
