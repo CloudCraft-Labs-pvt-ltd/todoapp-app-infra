@@ -40,4 +40,4 @@ module "vm" {
   os_disk_type        = var.os_disk_type
   disable_password_authentication = var.disable_password_authentication
   depends_on          = [module.nic]
-}
+} 
