@@ -24,3 +24,5 @@ provider "azurerm" {
 #main branch is lock
 
 #new commit
+
+#new commit to feature/101-add-vm
