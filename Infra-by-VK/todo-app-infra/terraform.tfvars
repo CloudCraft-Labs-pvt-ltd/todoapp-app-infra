@@ -7,6 +7,14 @@ resource_groups = {
       team = "app"
     }
   }
+    rg2 = {
+    location = "West Europe"
+    resource_group_name = "rg-todo2"
+    tags = {
+      env  = "dev"
+      team = "app"
+    }
+  }
 }
 
 vnet_details = {
