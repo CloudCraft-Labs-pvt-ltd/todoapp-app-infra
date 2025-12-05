@@ -18,11 +18,3 @@ provider "azurerm" {
   subscription_id = "22135fc2-ce1f-463b-9d7e-0de70cc656ec"
 }
 
-
-#added PR aproval-1
-
-#main branch is lock
-
-#new commit
-
-#new commit to feature/101-add-vm
